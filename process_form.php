@@ -5,8 +5,8 @@ $HOST = "ec2-34-195-169-25.compute-1.amazonaws.com";
 $PORT = "5432";
 $DBNAME = "d9snc1akpuc3du";
 $USER = "texzlgyaiqdstx";
-$PASSWORD = "fc456be82883231cc8336fbf2fda26513e8d8994bf22db6b1a04c8d03875c95a";
-$link = pg_connect("host=ec2-174-129-253-162.compute-1.amazonaws.com
+$PASSWORD = "c87d630035703e258fbccb9f59edf13dbb6a3094a1d604d1118d67e24023c7dd";
+$link = pg_connect("host=ec2-34-195-169-25.compute-1.amazonaws.com
 dbname=d9snc1akpuc3du
 port=5432 user=texzlgyaiqdstx
 password=c87d630035703e258fbccb9f59edf13dbb6a3094a1d604d1118d67e24023c7dd sslmode=require");
