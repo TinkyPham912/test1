@@ -45,7 +45,7 @@ $sql2 = "INSERT INTO Product (Id, Product_Name, Catergory, Date, Price, Descript
 
 $sql3 = 'INSERT INTO public."Product" (
 "Date", "Id", "Product_Name", "Catergory", "Descriptions", "Price") VALUES ('."
-'2019-12-20'::date, '121210'::character varying(20), 'my product XYZ'::character varying(100), 'kit'::character varying(40), 'my product xyz'::character varying(200), '12'::integer)".
+'2020-05-10'::date, '121210'::character varying(20), 'my product XYZ'::character varying(100), 'kit'::character varying(40), 'my product xyz'::character varying(200), '12'::integer)".
  'returning "Id"';
 echo $sql3;*/
 $sql4 = 'INSERT INTO public."Product" (
